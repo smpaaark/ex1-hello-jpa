@@ -5,12 +5,12 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "MBR")
 public class Member {
 
     @Id
     private Long id;
     private String name;
+    private int gggg;
 
     public Member() {
     }
