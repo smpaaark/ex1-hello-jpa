@@ -17,6 +17,4 @@ public class Locker {
     @OneToOne(mappedBy = "locker")
     private Member member;
 
-
-
 }
