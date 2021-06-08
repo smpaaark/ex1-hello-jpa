@@ -17,14 +17,14 @@ public class JpaMain {
 
         try {
 
-            Member member = saveMember(em);
-
-            Team team = new Team();
-            team.setName("teamA");
-            //
-            team.getMembers().add(member);
-
-            em.persist(team);
+//            Member member = saveMember(em);
+//
+//            Team team = new Team();
+//            team.setName("teamA");
+//            //
+//            team.getMembers().add(member);
+//
+//            em.persist(team);
 
             tx.commit();
         } catch (Exception e) {
